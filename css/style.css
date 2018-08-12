@@ -1,0 +1,110 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color:#dadada;
+}
+
+.red{
+  color:red
+}
+
+.green{
+  color:green
+}
+
+.blue{
+  color:blue
+}
+
+.bg-blue, .bg-green, .bg-red, .bg-orange{
+  padding: 0 10px;
+  border-radius: 12px;
+}
+
+.bg-red{
+  background-color: red;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.bg-blue{
+  background-color: blue;
+}
+
+.bg-orange{
+  background-color: orange;
+}
+
+/*///////////////////*/
+
+.navbar {
+  padding: 1.5% 2%;
+}
+
+#navbarNav{
+  justify-content: flex-end;
+}
+
+
+/*//////////////////*/
+
+
+#filters{
+  padding: 2%;
+}
+
+#filters .btn{
+  padding: 5px 15px;
+  margin: 5px;
+}
+
+#filters .btn label{
+  color: white;
+}
+
+/*//////////////////////*/
+
+.item {
+  position: relative;
+  padding: 15px;
+}
+
+.item .card-title{
+  padding: 10px 15px;
+}
+
+.item .card-title p{
+  font-size: 14px;
+  color: white;
+}
+
+.item .content{
+  background-color: white;
+  min-height: 300px;
+}
+
+.item .card-footer{
+  position: absolute;
+  bottom: 15px;
+  border-top: none;
+}
+
+.item .card-footer a{
+  color: #212529;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.item .card-footer a:hover{
+  font-size: 18px;
+}
+
+@media (max-width: 992px){
+  #navbarNav .navbar-nav {
+    text-align: center;
+  }
+}
+
+
